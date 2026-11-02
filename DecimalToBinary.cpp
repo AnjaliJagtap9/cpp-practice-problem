@@ -8,7 +8,6 @@ int decToBin(int n) {
     while (n > 0) {
         int rem = n % 2;
         n = n / 2;
-
         ans += rem * power;
         power *= 10;
     }
@@ -17,7 +16,9 @@ int decToBin(int n) {
 }
 
 int main() {
-    int n = 50;
+    int n;
+    cout << "Enter a decimal number: ";
+    cin >> n;
 
     cout << "Binary number: " << decToBin(n) << endl;
 

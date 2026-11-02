@@ -6,7 +6,7 @@ int main(){
     cin>>n;
     cout<<"Enter the number : ";
     cin>>m;
-  for(int i=1;i<=n;i++){
+    for(int i=1;i<=n;i++){
     for(int j=1;j<=m;j++){
         cout<<"*";
     }

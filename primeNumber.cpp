@@ -30,10 +30,9 @@ int main() {
 
     for (int i = 2; i <= n; i++) {
         if (primeOrNot(i) == 1) {
-            cout << i << " ";
+            cout << i << endl;
         }
     }
-
     return 0;
 }
 

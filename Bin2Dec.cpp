@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int ans=0,pow=1;
     int n;
-    cout<<"Enter a number:";
+    cout<<"Enter a binary number :";
     cin>>n;
     while(n>0){
         int rem=n%10;

@@ -15,4 +15,4 @@ int main(){
     cin>>n;
     cout<<factOfN(n);
 
-}
+} 
